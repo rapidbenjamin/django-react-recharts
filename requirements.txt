@@ -1,0 +1,9 @@
+django
+gunicorn
+python-dotenv
+whitenoise
+django-admin-datta
+django-webpack-loader==1.8.0
+
+# psycopg2-binary
+# mysqlclient

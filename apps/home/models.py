@@ -11,3 +11,7 @@ class Sales(models.Model):
 
     def __str__(self):
         return self.product
+
+    class Meta:
+        verbose_name = "Sale"
+        verbose_name_plural = "Sales"

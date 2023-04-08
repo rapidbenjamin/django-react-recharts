@@ -3,7 +3,7 @@ import ReactFlow from 'reactflow';
 
 import 'reactflow/dist/style.css';
 
-function Home() {
+function RFlow() {
     const initialNodes = [
       { id: '1', position: { x: 0, y: 0 }, data: { label: 'React Flow' } },
       { id: '2', position: { x: 0, y: 100 }, data: { label: 'Works' } },
@@ -17,4 +17,4 @@ function Home() {
       );
 }
 
-export default Home;
+export default RFlow;

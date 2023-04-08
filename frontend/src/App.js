@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactFlow from 'reactflow';
 
-import PropTypes from 'prop-types';
-
 import 'reactflow/dist/style.css';
 
-function Home(props) {
+function Home() {
     const initialNodes = [
       { id: '1', position: { x: 0, y: 0 }, data: { label: 'React Flow' } },
       { id: '2', position: { x: 0, y: 100 }, data: { label: 'Works' } },
@@ -18,9 +16,5 @@ function Home(props) {
           </div>
       );
 }
-
-Home.propTypes = {
-    window: PropTypes.func,
-};
 
 export default Home;

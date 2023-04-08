@@ -1,10 +1,7 @@
 import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
-import PropTypes from 'prop-types';
-
-
-function Chart (props) {
+function Chart () {
   const COUNTRIES_COUNT = JSON.parse(document.getElementById('country_count').textContent);
   
   function colors () {
@@ -50,10 +47,6 @@ function Chart (props) {
       </ResponsiveContainer>
     </div>
   );
-}
-
-Chart.propTypes = {
-  window: PropTypes.func,
 }
 
 export default Chart;

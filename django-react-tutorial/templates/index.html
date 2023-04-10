@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% load render_bundle from webpack_loader %}
+
+{% block breadcrumbs %}{% endblock breadcrumbs %}
+
+{% block content %}
+    <div id="app"></div>
+    {% render_bundle 'frontend' %}
+{% endblock %}

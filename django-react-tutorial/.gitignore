@@ -22,4 +22,3 @@ frontend/static/frontend/
 webpack-stats.json
 yarn.lock
 /staticfiles/
-django-react-tutorial/django_react.md
